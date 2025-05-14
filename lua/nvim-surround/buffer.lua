@@ -312,14 +312,14 @@ M.highlight_selection = function(selection)
         { inclusive = true }
     )
     -- Force the screen to highlight the text immediately
-    --vim.cmd.redraw()
+    vim.cmd.redraw()
 end
 
 -- Clears all nvim-surround highlights for the buffer.
 M.clear_highlights = function()
     vim.api.nvim_buf_clear_namespace(0, M.namespace.highlight, 0, -1)
     -- Force the screen to clear the highlight immediately
-    --vim.cmd.redraw()
+    vim.cmd.redraw()
 end
 
 return M
