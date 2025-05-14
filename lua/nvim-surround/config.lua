@@ -715,8 +715,8 @@ M.set_keymaps = function(args)
             buffer = args.buffer,
             desc = "Add a surrounding pair around a visual selection",
             silent = true,
-            nowait = true,
             expr = true,
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -734,8 +734,8 @@ M.set_keymaps = function(args)
             buffer = args.buffer,
             desc = "Add a surrounding pair around a visual selection, on new lines",
             silent = true,
-            nowait = true,
             expr = true,
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -787,6 +787,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-insert)",
         opts = {
             desc = "Add a surrounding pair around the cursor (insert mode)",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -796,6 +797,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-insert-line)",
         opts = {
             desc = "Add a surrounding pair around the cursor, on new lines (insert mode)",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -805,6 +807,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-normal)",
         opts = {
             desc = "Add a surrounding pair around a motion (normal mode)",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -814,6 +817,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-normal-cur)",
         opts = {
             desc = "Add a surrounding pair around the current line (normal mode)",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -823,6 +827,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-normal-line)",
         opts = {
             desc = "Add a surrounding pair around a motion, on new lines (normal mode)",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -832,6 +837,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-normal-cur-line)",
         opts = {
             desc = "Add a surrounding pair around the current line, on new lines (normal mode)",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -841,6 +847,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-visual)",
         opts = {
             desc = "Add a surrounding pair around a visual selection",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -850,6 +857,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-visual-line)",
         opts = {
             desc = "Add a surrounding pair around a visual selection, on new lines",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -859,6 +867,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-delete)",
         opts = {
             desc = "Delete a surrounding pair",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -868,6 +877,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-change)",
         opts = {
             desc = "Change a surrounding pair",
+            nowait = true,
         },
     })
     M.set_keymap({
@@ -877,6 +887,7 @@ M.set_keymaps = function(args)
         rhs = "<Plug>(nvim-surround-change-line)",
         opts = {
             desc = "Change a surrounding pair, putting replacements on new lines",
+            nowait = true,
         },
     })
 end
